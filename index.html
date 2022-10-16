@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/foto-perfil.png" alt="foto de perfil" />
+        <h1 class="nome">Higor Wagner</h1>
+        <h2 class="cargo">Desenvolvedor </h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Oi! meu nome é Higor Wagner, seja bem-vindo(a)!</p>
+
+              <p>
+                Sou apaixonado por tecnologia desde minha infância, sempre tive o sonho de trabalhar com programação, estou sempre buscando evoluir em meus estudos e projetos para que eu possa fazer parte de um grande time.
+                <br><br>
+                Já estudei muito focando a área de front-end <span>(HTML, CSS e Javascript)</span> e hoje estudo <span>SQL e Phyton.</span>
+                <br><br>
+                Gosto muito de Animes, Filmes, Jogos e sair com meus amigos. Tenho como hobbie fotografia e a musica. 
+                <br><br>
+                Bom viajante, por enquanto é isso. Espero que você tenha aproveitado seu descanso e possa seguir em frente a sua jornada, mas antes você pode ver meus contatos, assim sempre que precisar você possa fazer uma viagem rápida para falar comigo. Foi um prazer! Até logo!
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a download="" href="./src/imagens/Higor Wagner.pdf" target="_blank" class="curriculo">Currículo</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/higor-wagner-wsc/" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Higorwsc" target="_blank" class="github">GitHub</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <audio src="src/audio/Loneliness 8-bit Relaxing music.mp3" controls autoplay loop></audio>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
